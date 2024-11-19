@@ -1,6 +1,88 @@
 @charset "UTF-8";
 
-body {
-    background-color: #282d32;
+:root {
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.home, .btn, .services, .about, .work, .contact, footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home {
+    background-color: #000000;
     color: #ffffff;
+	height: 100vh;
+}
+
+.btn {
+	position:absolute;
+	left: 20%;
+}
+
+.work_btn, .contact_btn {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 400;
+	width: 150px;
+	height: 50px;
+	border-radius: 5%;
+}
+
+.work_btn {
+	margin:20px;
+	border: inset 1px;
+	background-color: #0000;
+	color:#ffffff;
+}
+
+.work_btn:hover {
+	cursor: pointer;
+	background-color: #ffffff;
+	color:#000000;
+}
+
+.contact_btn {
+	border: none;
+	background-color: #0fdf19;
+	color:#ffffff;
+}
+
+.contact_btn:hover {
+	cursor: pointer;
+	background-color: #ffffff;
+	color:#0fdf19;
+}
+
+.services {
+	background-color: #202020;
+	color: #ffffff;
+	height: 50vh;
+}
+
+.about {
+	background-color: #000000;
+    color: #ffffff;
+	height: 50vh;
+}
+
+.work {
+	background-color: #202020;
+	color: #ffffff;
+	height: 100vh;
+}
+
+.contact {
+	background-color: #282d32;
+	color: #ffffff;
+	height: 50vh;
+}
+
+footer {
+	background-color: #000000;
+	color: #ffffff;
 }
