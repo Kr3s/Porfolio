@@ -28,15 +28,15 @@
 	font-size: 24px;
 	line-height: 24px;
 	font-weight: 400;
-	width: 150px;
-	height: 50px;
-	border-radius: 5%;
+	width: 200px;
+	height: 80px;
+	border-radius: 20px;
 }
 
 .work_btn {
 	margin:20px;
-	border: inset 1px;
-	background-color: #0000;
+	border: 2px solid #ffffff;
+	background-color: transparent;
 	color:#ffffff;
 }
 
