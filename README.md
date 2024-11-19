@@ -9,4 +9,5 @@ This is where I'm going to be posting my current and previous work. But for now,
   4. Add security to the back end of the site.
   5. Etc..
 
+<img src="Page rough draft.png" style="height:70vh;">
 -This is a constant **W.I.P** and will be updated almost daily.
